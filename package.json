@@ -1,0 +1,25 @@
+{
+  "name": "expressjs-node",
+  "version": "1.0.0",
+  "description": "node express app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/geraldkachi/expressjd-crud-Api.git"
+  },
+  "author": "fitzgerald kachi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7",
+    "pug": "^3.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
