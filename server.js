@@ -9,6 +9,9 @@ const PORT = 5000;
 
 app.use(bodyParser.json())
 
+
+//some people uses this as body-parser // app.use(express.json())
+
 app.get("/", (req, res) => {
   res.send("Hello kachi this you server home page")
 });
